@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KnotHub — Privacy Policy</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500&display=swap');
+
+  :root {
+    --bg: #0E0E10;
+    --surface: #18181B;
+    --border: #2A2A2E;
+    --accent: #F97316;
+    --text: #E4E4E7;
+    --muted: #71717A;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.8;
+    padding: 60px 24px;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  header {
+    margin-bottom: 56px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 40px;
+  }
+
+  .logo {
+    font-family: 'DM Serif Display', serif;
+    font-size: 28px;
+    color: var(--accent);
+    letter-spacing: -0.5px;
+    margin-bottom: 24px;
+  }
+
+  h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(36px, 6vw, 52px);
+    font-weight: 400;
+    line-height: 1.15;
+    color: #fff;
+    margin-bottom: 16px;
+  }
+
+  .meta {
+    color: var(--muted);
+    font-size: 14px;
+  }
+
+  section {
+    margin-bottom: 48px;
+  }
+
+  h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  h2::before {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: var(--accent);
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  p {
+    color: var(--text);
+    margin-bottom: 12px;
+    font-size: 15px;
+  }
+
+  ul {
+    list-style: none;
+    margin: 12px 0;
+  }
+
+  ul li {
+    font-size: 15px;
+    color: var(--text);
+    padding: 6px 0 6px 20px;
+    position: relative;
+  }
+
+  ul li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+  }
+
+  a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  a:hover { text-decoration: underline; }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px 28px;
+    margin-top: 16px;
+  }
+
+  footer {
+    margin-top: 64px;
+    padding-top: 32px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="logo">KnotHub</div>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Last updated: April 29, 2026</p>
+  </header>
+
+  <section>
+    <p>KnotHub ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use the KnotHub mobile application.</p>
+  </section>
+
+  <section>
+    <h2>Information We Collect</h2>
+    <p>We may collect the following types of information:</p>
+    <ul>
+      <li><strong>Account information</strong> — name and email address provided during sign-in via Clerk authentication</li>
+      <li><strong>User-generated content</strong> — notes, text, and URLs you choose to save within the app</li>
+      <li><strong>Device permissions</strong> — the app may request access to your microphone for voice note features and camera for image sharing functionality</li>
+      <li><strong>Purchase information</strong> — subscription and transaction data processed via RevenueCat and Google Play</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>How We Use Your Information</h2>
+    <ul>
+      <li>To provide and maintain the KnotHub service</li>
+      <li>To generate AI-powered titles, tags, and summaries for your saved content</li>
+      <li>To process subscription payments and manage your account</li>
+      <li>To improve the app's performance and user experience</li>
+      <li>To respond to your support requests</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Data Storage & Security</h2>
+    <p>Your notes and content are stored locally on your device using SQLite and, where applicable, synced securely to our servers. We implement industry-standard security measures to protect your data from unauthorized access.</p>
+    <p>We do not sell, trade, or rent your personal information to third parties.</p>
+  </section>
+
+  <section>
+    <h2>Third-Party Services</h2>
+    <p>KnotHub uses the following third-party services, each with their own privacy policies:</p>
+    <ul>
+      <li><strong>Clerk</strong> — authentication and user management</li>
+      <li><strong>RevenueCat</strong> — subscription management</li>
+      <li><strong>Google Play Billing</strong> — payment processing</li>
+      <li><strong>Anthropic / OpenAI</strong> — AI-powered content processing</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Device Permissions</h2>
+    <p>KnotHub may request the following device permissions:</p>
+    <ul>
+      <li><strong>Microphone</strong> — used for voice note recording features</li>
+      <li><strong>Camera</strong> — used for image capture and sharing functionality</li>
+    </ul>
+    <p>These permissions are only used for the stated purposes and are never accessed without your explicit action.</p>
+  </section>
+
+  <section>
+    <h2>Your Rights</h2>
+    <p>You have the right to:</p>
+    <ul>
+      <li>Access the personal data we hold about you</li>
+      <li>Request correction or deletion of your data</li>
+      <li>Withdraw consent for data processing at any time</li>
+      <li>Export your data in a portable format</li>
+    </ul>
+    <p>To exercise any of these rights, please contact us at the email below.</p>
+  </section>
+
+  <section>
+    <h2>Children's Privacy</h2>
+    <p>KnotHub is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13.</p>
+  </section>
+
+  <section>
+    <h2>Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify you of any significant changes by updating the date at the top of this page. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <div class="card">
+      <p>If you have any questions about this Privacy Policy, please contact us:</p>
+      <p style="margin-top:12px"><strong>Email:</strong> <a href="mailto:privacy@knothub.app">privacy@knothub.app</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 KnotHub. All rights reserved.</p>
+  </footer>
+</div>
+</body>
+</html>
